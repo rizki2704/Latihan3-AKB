@@ -40,15 +40,14 @@
             android:background="@color/white"
             android:padding="30dp"
             >
-            <Button
-                android:layout_width="match_parent"
+            <android.widget.Button
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                android:text="Mulai"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:background="@drawable/ic_button"
                 android:textAllCaps="false"
-                android:background="@color/kuningtua"
-                />
+                android:text="Mulai"
+                android:onClick="moveKeluarga"/>
         </RelativeLayout>
     </LinearLayout>
 

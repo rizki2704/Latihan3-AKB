@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu"
+    android:orientation="vertical"
+    tools:context=".KeluargaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/kodekeluarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/rubik_regular"
+                android:text="Kode Keluarga"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ketikan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kodekeluarga"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/rubik_regular"
+                android:text="Ketikan kode Keluarg yang ayah bunda miliki disini"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/etkodekeluarga"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/ketikan"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_edittext"
+                android:text="A1B2C3"
+                android:textAlignment="center"></EditText>
+
+            <TextView
+                android:id="@+id/keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etkodekeluarga"
+                android:layout_marginTop="20dp"
+                android:text="Dengan menekan tombol masuk berarti anda menyetujui"
+                android:textAlignment="center"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/keteranganbawah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keterangan"
+                android:layout_marginLeft="45dp"
+                android:text="Ketentuan Pengguna"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/keteranganbawah2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keterangan"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/keteranganbawah"
+                android:text="dan"
+                android:textAlignment="center"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/keteranganbawah3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keterangan"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/keteranganbawah2"
+                android:text="Kebijakan Data"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/keteranganbawah4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/keterangan"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/keteranganbawah3"
+                android:text="Kami"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <android.widget.Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/keteranganbawah2"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_button"
+                android:text="Masuk"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:onClick="moveBiodata"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/titbut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/rubik_regular"
+                android:text="Belum punya kode keluarga ?" />
+
+            <android.widget.Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titbut"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_button2"
+                android:text="Beli kode keluarga disini"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
