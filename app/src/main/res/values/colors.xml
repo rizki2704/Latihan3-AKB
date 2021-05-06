@@ -7,9 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="kuningmuda">#FFE41E</color>
-    <color name="kuningtua">#FDB93A</color>
-    <color name="abu">#f8f8f8</color>
-    <color name="ungumuda">#8184F7</color>
-    <color name="ungutua">#494EEA</color>
+    <color name="sun_yellow">#FFE41E</color>
+    <color name="sun_flower">#FDB93A</color>
+    <color name="white_three">#f8f8f8</color>
+    <color name="purpleish_blue">#494dea</color>
+    <color name="lavender_blue">#8084f6</color>
 </resources>
