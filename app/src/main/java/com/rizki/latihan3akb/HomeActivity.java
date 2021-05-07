@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
+// Jumat 7 Mei 2021 Membuat activity home 10118025 Rizki Restu Illahi IF-1
 public class HomeActivity extends AppCompatActivity {
     public static final String EXTRA_NAME = "extra_name";
 

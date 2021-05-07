@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
+// Kamis 6 Mei 2021 Membuat activity utama 10118025 Rizki Restu Illahi IF-1
 public class MainActivity extends AppCompatActivity {
 
     @Override

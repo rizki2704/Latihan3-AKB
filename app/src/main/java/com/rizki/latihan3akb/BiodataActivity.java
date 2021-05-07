@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-
+// jumat 7 Mei 2021 Membuat activity biodata 10118025 Rizki Restu Illahi IF-1
 public class BiodataActivity extends AppCompatActivity {
 
     @Override
